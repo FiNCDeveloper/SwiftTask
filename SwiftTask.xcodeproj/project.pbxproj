@@ -524,7 +524,7 @@
 		};
 		1F46DEE8199EDF1000F97868 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FFADCDD1C5CEC1B000B66BE /* UniversalFramework_Framework.xcconfig */;
+			baseConfigurationReference = 1FFADCD01C5CE950000B66BE /* Debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -544,7 +544,7 @@
 		};
 		1F46DEE9199EDF1000F97868 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FFADCDD1C5CEC1B000B66BE /* UniversalFramework_Framework.xcconfig */;
+			baseConfigurationReference = 1FFADCD11C5CE950000B66BE /* Release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -564,7 +564,7 @@
 		};
 		1F46DEEB199EDF1000F97868 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FFADCDE1C5CEC1B000B66BE /* UniversalFramework_Test.xcconfig */;
+			baseConfigurationReference = 1FFADCD01C5CE950000B66BE /* Debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -582,7 +582,7 @@
 		};
 		1F46DEEC199EDF1000F97868 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FFADCDE1C5CEC1B000B66BE /* UniversalFramework_Test.xcconfig */;
+			baseConfigurationReference = 1FFADCD11C5CE950000B66BE /* Release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SwiftTaskTests/Info.plist;
@@ -596,7 +596,7 @@
 		};
 		4822F0DA19D00ABF00F5F572 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FFADCDE1C5CEC1B000B66BE /* UniversalFramework_Test.xcconfig */;
+			baseConfigurationReference = 1FFADCD01C5CE950000B66BE /* Debug.xcconfig */;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -613,7 +613,7 @@
 		};
 		4822F0DB19D00ABF00F5F572 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FFADCDE1C5CEC1B000B66BE /* UniversalFramework_Test.xcconfig */;
+			baseConfigurationReference = 1FFADCD11C5CE950000B66BE /* Release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SwiftTaskTests/Info.plist;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
